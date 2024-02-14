@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav-Bar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body class="bg-[url('/images/background.jpg')] bg-cover bg-no-repeat">
+    <div class=" hidden md:w-16 md:h-16 md:rounded-lg md:bg-gray-600 md:flex md:flex-col md:justify-center md:items-center md:gap-2 md:m-4">
+        <div class="w-3/4 h-[3px] bg-white"></div>
+        <div class="w-3/4 h-[3px] bg-white"></div>
+        <div class="w-1/2 h-[3px] bg-white self-start ml-2"></div>
+    </div>
+
+    <nav class="w-3/4 h-screen bg-gray-800 p-2 md:hidden">
+      <img class="w-[100px] h-[30px]" src="images/flowbite.png" alt="" />
+
+      <ul
+        class="text-white text-sm h-[180px] flex flex-col justify-evenly border-b border-gray-700"
+      >
+        <li class="flex items-center">
+          <i class="fa-solid fa-chart-pie text-xs mx-2"></i>
+          <p>Overview</p>
+        </li>
+
+        <li class="flex items-center">
+          <i class="fa-solid fa-file-lines text-xs mx-2"></i>
+          <p class="w-3/4">Pages</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+
+        <li class="flex items-center">
+          <i class="fa-solid fa-bag-shopping text-xs mx-2"></i>
+          <p class="w-3/4">Sales</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+
+        <li class="flex items-center">
+          <i class="fa-solid fa-inbox text-xs mx-2"></i>
+          <p class="w-[165px]">Messages</p>
+          <div
+            class="w-4 h-4 rounded-3xl bg-blue-200 text-gray-800 flex items-center justify-center text-xs font-bold"
+          >
+            6
+          </div>
+        </li>
+
+        <li class="flex items-center">
+          <i class="fa-solid fa-lock text-xs mx-2"></i>
+          <p class="w-3/4">Authentication</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </li>
+
+      </ul>
+
+      <h3 class="text-sm text-gray-400 font-bold my-2">ACTIVE CONTACTS</h3>
+
+      <ul class="text-sm font-bold text-white flex flex-col h-[300px] justify-between">
+
+        <li class="flex" >
+          <div
+            class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1310533180/photo/cheerful-fashionable-adult-man-in-city-setting.jpg?s=612x612&w=0&k=20&c=hfy_5L8llmz_sUp1_n1NbM5Gsyk0kUbJRmR3TXAaoMM=')] w-6 h-6 bg-cover rounded-3xl">
+            <div class="w-2 h-2 bg-green-600 rounded-xl border border-black"></div>
+          </div>
+          <p>Jese Leos</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1149039596/photo/vibrant-portrait.jpg?s=612x612&w=0&k=20&c=HJjzHslOVE8yBVJQSDgxPLiNUpvZxwDdNsNDyXbohek=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-green-600 rounded-xl border border-black"></div>      
+          </div>
+          <p>Bonnie Green</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1175266114/photo/every-day-is-a-new-start.jpg?s=612x612&w=0&k=20&c=Xe6QMcj2TprrzrjqVLft9C_aiiDnsDh6hi3p0zH6gvU=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-red-600 rounded-xl border border-black"></div>         
+          </div>
+          <p>Joseph McFall</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/691910449/photo/smiling-businessman-with-smart-phone-and-cup.jpg?s=612x612&w=0&k=20&c=xtKhWCfPYZrRjIs3cA_yFnxx3tx8CylnSt9knxib3qk=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-red-600 rounded-xl border border-black"></div> 
+          </div>
+          <p>Lana Byrd</p>
+        </li >
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1369508766/photo/beautiful-successful-latin-woman-smiling.jpg?s=612x612&w=0&k=20&c=LoznG6eGT42_rs9G1dOLumOTlAveLpuOi_U755l_fqI=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-green-600 rounded-xl border border-black"></div>
+          </div>
+          <p>Leslie Livingston</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1289220545/photo/beautiful-woman-smiling-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=qmOTkGstKj1qN0zPVWj-n28oRA6_BHQN8uVLIXg0TF8=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-green-600 rounded-xl border border-black"></div>
+          </div>
+          <p>Thomas Lean</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1326417862/photo/young-woman-laughing-while-relaxing-at-home.jpg?s=612x612&w=0&k=20&c=cd8e6RBGOe4b8a8vTcKW0Jo9JONv1bKSMTKcxaCra8c=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-red-600 rounded-xl border border-black"></div>          
+          </div>
+          <p>Robert Brown</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.jpg?s=612x612&w=0&k=20&c=mt-Bsap56B_7Lgx1fcLqFVXTeDbIOILVjTdOqrDS54s=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-red-600 rounded-xl border border-black"></div>       
+          </div>
+          <p>Micheal Gough</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1399395748/photo/cheerful-business-woman-with-glasses-posing-with-her-hands-under-her-face-showing-her-smile.jpg?s=612x612&w=0&k=20&c=EbnuxLE-RJP9a08h2zjfgKUSFqmjGubk0p6zwJHnbrI=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-green-600 rounded-xl border border-black"></div>
+          </div>
+          <p>Roberta Casas</p>
+        </li>
+
+        <li class="flex" >
+          <div class="flex flex-row-reverse mr-2 bg-[url('https://media.istockphoto.com/id/1346143621/photo/positive-young-mixed-race-woman-using-a-laptop-and-smartphone-at-home-cozy-home-interior-with.jpg?s=612x612&w=0&k=20&c=o92yS8xrYMIgAOwq6VpVU713mS2wpLa5-1bBRgysHU4=')] w-6 h-6 bg-cover rounded-3xl">
+          <div class="w-2 h-2 bg-red-600 rounded-xl border border-black"></div>
+          </div>
+          <p>Neil Sims</p>
+        </li>
+
+      </ul>
+    </nav>
+  </body>
+</html>
